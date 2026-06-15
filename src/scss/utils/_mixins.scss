@@ -1,0 +1,52 @@
+@use "variables" as *;
+
+// Resolution Responsive
+
+// @mixin responsive($bp) {
+//   @if $bp == tablet {
+//     @media (min-width: $bp-tablet) {
+//       @content;
+//     }
+//   }
+//   @if $bp == tablet-horizontal {
+//     @media (min-width: $bp-tablet-horizontal) {
+//       @content;
+//     }
+//   }
+//   @if $bp == desktop {
+//     @media (min-width: $bp-desktop) {
+//       @content;
+//     }
+//   }
+//   @if $bp == desktop-xl {
+//     @media (min-width: $bp-desktop-xl) {
+//       @content;
+//     }
+//   }
+// }
+
+//Buttons:
+
+@mixin button_pill {
+  display: inline-block;
+  border-radius: 16px 16px 16px 0;
+  background: var(--Pink, #db2a6b);
+  box-shadow: 0 24px 50px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  padding: 16px 68px;
+  color: $white;
+}
+
+@mixin button_link {
+  display: inline-flex;
+  align-items: center;
+  font-weight: 600;
+  color: $white;
+}
+
+//List:
+
+@mixin reset_list {
+  text-decoration: none;
+  color: $gray;
+}

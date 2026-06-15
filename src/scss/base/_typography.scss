@@ -1,0 +1,11 @@
+@use '../utils/variables' as *;
+
+
+body {
+  font-family: $primary;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: $seconday;
+}
