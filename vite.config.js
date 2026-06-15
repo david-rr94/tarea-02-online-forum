@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 export default defineConfig({
-  base: "/online-forum/",
+  base: "/tarea-02-online-forum/",
   server: {
     open: true,
   },
